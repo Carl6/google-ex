@@ -1,0 +1,115 @@
+*{
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+.lista{
+  color: gray;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+.menu-icon {
+  width: 30%;
+}
+.cabeza{
+  height: 50px;
+}
+.menu{
+  height: 50px;
+
+}
+.contenedor-imagen{
+  width: 350px;
+  margin: 200px 200px 20px 400px;
+}
+.google-logo {  /*no se por que no se mueve al centro con text align y la imagen se hace pequeña, sera por que no es texto */
+  width: 300px; /* y tmb google debe de ir en el espacio de abajo.. algo mal con mi orden de estructura */
+  height: 100px;
+  padding: 0px;
+}
+ul{
+  padding; 10px;
+  float: right;
+  list-style-type: none;
+  color: gray;
+}
+li{
+  display:inline-block;
+}
+.cuadritos{
+  width: 30px;
+  padding-right: 15px;
+  ;
+}
+.notificaciones-app{
+  width: 25px;
+  border-radius: 50%;
+  padding-right: 15px;
+}
+.profile-pic{
+  width: 25px;
+  border-radius: 50%;
+  padding-right: 5x;
+
+}
+.mex{
+  color: blue;
+  font-size: 18px;
+  float: right;
+  margin-right: 15px;
+}
+.Barras-buscadoras{
+  width: 600px;
+  height: 150px;
+  color: black;
+  padding-bottom: 200px;
+  margin:auto;
+}
+.Barra-principal{
+  width: 500px;
+  height: 40px;
+  padding-bottom; 10px;
+  margin: 30px;
+}
+.padre-barra-principal{
+  position: relative;
+}
+.Barrita1{
+  width: 180px;
+  height: 35px;
+  padding: 5px;
+  margin-left: 100px;
+}
+.Barrita2{
+  color: black;
+  text-decoration: none;
+  width: 180px;
+  height: 35px;
+  padding: 5px;
+  margin:auto;
+
+}
+.lista-abajo{
+  background-color: lightgray;
+
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.lista-izq a, .lista-der a{
+	color: black;
+  text-decoration: none;
+ padding: 5px;
+ margin: 5px;
+}
+.Barrita2 a{
+  color: black;
+  text-decoration: none;
+}
+.microphone_app{
+  width: 30px;
+  position: absolute;
+  top: 40px;
+  left: 500px;
+
+}
